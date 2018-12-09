@@ -8,9 +8,12 @@ header{
 	margin-top: 8px;
 }
 
+#welcome {
+	text-align: center;
+}
+
 h1 {
 	margin: 0;
-	text-align: center;
 }
 
 #all-squares {
