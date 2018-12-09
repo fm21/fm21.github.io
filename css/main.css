@@ -44,7 +44,7 @@ h1 {
 	background-color: orange;
 	width: 182px;
 	height: 124px;
-	box-shadow:-5px -6px 14px 0px rgba(0,0,0,0.3)inset;
+	box-shadow:-5px -6px 6px 0px rgba(0,0,0,0.3)inset;
 }
 
 #table-squares {
