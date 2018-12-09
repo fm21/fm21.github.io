@@ -10,12 +10,7 @@ header{
 
 h1 {
 	margin: 0;
-}
-
-#welcome {
-	margin: inherit;
-	width: 132px;
-	height: 37px;
+	text-align: center;
 }
 
 #all-squares {
