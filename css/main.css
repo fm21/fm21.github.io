@@ -1,3 +1,9 @@
+@font-face {
+	font-family: RobotoSlabBold;
+	src: url('fonts/robotoslabbold.ttf');
+	src: url('fonts/robotoslabbold.eot?#iefix');
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -12,8 +18,14 @@ header{
 	text-align: center;
 }
 
+#welcome::first-letter {
+	color: #ff4d00;
+}
+
 h1 {
 	margin: 0;
+	text-shadow: -3px -3px 6px #888888;
+	font-family: RobotoSlabBold;
 }
 
 #all-squares {
@@ -22,6 +34,7 @@ h1 {
 	width: 198px;
 	height: 140px;
 	margin: inherit;
+	box-shadow: -3px -3px 6px 1px #888888;
 }
 
 #background-squares {
@@ -118,4 +131,5 @@ h1 {
 
 #learning {
 	text-align: center;
+	text-shadow: -3px -3px 6px #888888;
 }
